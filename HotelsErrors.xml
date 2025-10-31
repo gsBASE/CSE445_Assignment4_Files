@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Root element is Hotel instead of Hotels -->
+<Hotel>
+	<!-- 1 -->
+	<Hotel Rating="4.5">
+		<Name>Residence Inn by Marriott Tempe Downtown/University</Name>
+		<Phone>480-967-2300</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>510</Number>
+			<Street>S Forest Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 2, Required field is missing -->
+	<Hotel Rating="4.4">
+		<Name>Tempe Mission Palms, a Destination by Hyatt Hotel</Name>
+		<Phone>480-894-1400</Phone>
+		<Address>
+			<Number>60</Number>
+			<Street>E 5th Street</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 3 -->
+	<Hotel Rating="4.4">
+		<Name>University Inn Tempe/ASU</Name>
+		<Phone>480-966-7221</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>902</Number>
+			<Street>S Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 4, Phone element is missing -->
+	<Hotel Rating="4.3">
+		<Name>The Westin Tempe</Name>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th Street</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 5, No Address closing tag -->
+	<Hotel Rating="4.5">
+		<Name>Omni Tempe Hotel at ASU</Name>
+		<Phone>602-794-8600</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>7</Number>
+			<Street>E University Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+	</Hotel>
+	
+	<!-- 6 -->
+	<Hotel Rating="4.0">
+		<Name>Holiday Inn Express and Suites Phoenix North - Scottsdale by IHG</Name>
+		<Phone>480-473-3400</Phone>
+		<Address NearestAirport="Phoenix Deer Valley Airport">
+			<Number>4575</Number>
+			<Street>E Irma Ln</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85050</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 7 -->
+	<Hotel Rating="3.9">
+		<Name>Hilton Garden Inn North Phoenix Scottsdale</Name>
+		<Phone>480-585-6644</Phone>
+		<Address NearestAirport="Phoenix Deer Valley Airport">
+			<Number>4425</Number>
+			<Street>E Irma Ln</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85050</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 8, Name is duplicated -->
+	<Hotel>
+		<Name>Hilton Garden Inn Seattle Downtown</Name>
+		<Name>Hilton Garden Inn Seattle Downtown</Name>
+		<Phone>206-467-7770</Phone>
+		<Address NearestAirport="Seattle–Tacoma International Airport">
+			<Number>1821</Number>
+			<Street>Boren Ave</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98101</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 9 -->
+	<Hotel Rating="4.4">
+		<Name>Residence Inn by Marriott Seattle Downtown/Convention Center</Name>
+		<Phone>206-388-1000</Phone>
+		<Phone>206-787-5388</Phone>
+		<Address NearestAirport="Seattle–Tacoma International Airport">
+			<Number>1815</Number>
+			<Street>Terry Ave</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98101</Zip>
+		</Address>
+	</Hotel>
+	
+	<!-- 10 -->
+	<Hotel Rating="4.6">
+		<Name>Hyatt Regency Seattle</Name>
+		<Phone>206-973-1234</Phone>
+		<Address NearestAirport="">
+			<Number>808</Number>
+			<Street>Howell St</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98101</Zip>
+		</Address>
+	</Hotel>
+	
+</Hotels>
