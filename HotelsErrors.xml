@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Root element is Hotel instead of Hotels -->
-<Hotel xmlns="https://raw.githubusercontent.com/gsBASE/CSE445_Assignment4_Files/refs/heads/main/Hotels.xsd"
+<Hotel xmlns="https://raw.githubusercontent.com/gsBASE/CSE445_Assignment4_Files/refs/heads/main"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="https://raw.githubusercontent.com/gsBASE/CSE445_Assignment4_Files/refs/heads/main/Hotels.xsd Hotels.xsd">
+		xsi:schemaLocation="https://raw.githubusercontent.com/gsBASE/CSE445_Assignment4_Files/refs/heads/main/ Hotels.xsd"
+	>
 	<!-- 1 -->
 	<Hotel Rating="4.5">
 		<Name>Residence Inn by Marriott Tempe Downtown/University</Name>
@@ -133,4 +134,4 @@
 		</Address>
 	</Hotel>
 	
-</Hotels>
+</Hotel>
