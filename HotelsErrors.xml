@@ -59,7 +59,7 @@
 	<Hotel Rating="4.5">
 		<Name>Omni Tempe Hotel at ASU</Name>
 		<Phone>602-794-8600</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearestAirport="Sky Harbor"/>
 			<Number>7</Number>
 			<Street>E University Dr</Street>
 			<City>Tempe</City>
