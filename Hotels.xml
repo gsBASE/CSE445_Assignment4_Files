@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns="https://raw.githubusercontent.com/gsBASE/CSE445_Assignment4_Files/refs/heads/main"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="https://raw.githubusercontent.com/gsBASE/CSE445_Assignment4_Files/refs/heads/main/ Hotels.xsd"
+		xsi:schemaLocation="https://raw.githubusercontent.com/gsBASE/CSE445_Assignment4_Files/refs/heads/main Hotels.xsd"
 	>
 	<!-- 1 -->
 	<Hotel Rating="4.5">
