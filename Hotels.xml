@@ -7,7 +7,7 @@
 	<Hotel Rating="4.5">
 		<Name>Residence Inn by Marriott Tempe Downtown/University</Name>
 		<Phone>480-967-2300</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address>
 			<Number>510</Number>
 			<Street>S Forest Ave</Street>
 			<City>Tempe</City>
